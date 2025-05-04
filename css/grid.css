@@ -1,0 +1,82 @@
+.cabecera{
+    display: grid;
+  gap: 5px;
+  background-color: #1c1d1f;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+div{
+    display: grid;
+    gap: 5px;
+    background-color: #1c1d1f;
+    padding: 5px;
+    text-align: start;
+    color: #ffffff;
+
+}
+
+#nombre{
+  text-align: center;
+  text-decoration:underline;
+  font-size:xx-large;
+}
+
+.nombre:hover {
+  color: #ff7433; 
+  transform: scale(1.1); 
+  transition: all 0.3s ease; 
+}
+  
+
+
+#imagen{
+  place-items: center;
+
+}
+img{
+  
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.imagen-precio {
+  display: grid;
+  grid-template-columns: 1fr 500px;  /* Imagen ocupa una columna, precio ocupa otra */
+  gap: 5px;  /* Espacio entre la imagen y el precio */
+  align-items: center;  /* Centra verticalmente */
+  
+}
+
+#precio {
+  font-size: 500%;
+  font-weight: bold;
+  text-align:left;
+  color: #c9ebff;  /* Color del precio */
+  box-shadow: 1px 1px 8px rgba(201, 250, 247, 0.3);
+  max-width: 38%;
+  border-radius: 20px;   
+}
+
+.stock {
+  background-color: #28a745;      
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;            
+  font-weight: bold;
+  font-size: 1em;
+  width: fit-content;
+  margin-top: 10px;
+  box-shadow: 1px 1px 8px rgba(108, 245, 90, 0.3);
+}
+
+h1:hover {
+  color: #0056b3; /* Azul oscuro */
+  text-decoration: underline; /* Subrayar el texto */
+  transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+  transition: all 0.3s ease; /* Animación suave */
+}
