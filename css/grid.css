@@ -18,12 +18,13 @@ div{
 }
 
 #nombre{
+  display: grid;
   text-align: center;
-  text-decoration:underline;
   font-size:xx-large;
 }
 
 .nombre:hover {
+  display: grid;
   color: #ff7433; 
   transform: scale(1.1); 
   transition: all 0.3s ease; 
@@ -37,7 +38,7 @@ div{
 }
 img{
   
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 15px rgba(246, 238, 238, 0.5);
   transition: transform 0.3s ease;
 }
 img:hover{
@@ -46,8 +47,8 @@ img:hover{
 .imagen-precio {
   display: grid;
   grid-template-columns: 1fr 500px;  /* Imagen ocupa una columna, precio ocupa otra */
-  gap: 5px;  /* Espacio entre la imagen y el precio */
-  align-items: center;  /* Centra verticalmente */
+  gap: 40px;  
+  align-items: center;  
   
 }
 
@@ -75,8 +76,9 @@ img:hover{
 }
 
 h1:hover {
-  color: #0056b3; /* Azul oscuro */
-  text-decoration: underline; /* Subrayar el texto */
-  transform: scale(1.1); /* Aumentar ligeramente el tamaño */
-  transition: all 0.3s ease; /* Animación suave */
+  color: #0056b3; 
+  text-decoration: underline; 
+  transform: scale(1.1); 
+  transition: all 0.3s ease; 
+  
 }
