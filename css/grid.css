@@ -75,8 +75,8 @@ img:hover{
 }
 
 h1:hover {
-  color: #0056b3; /* Azul oscuro */
-  text-decoration: underline; /* Subrayar el texto */
-  transform: scale(1.1); /* Aumentar ligeramente el tamaño */
-  transition: all 0.3s ease; /* Animación suave */
+  color: #0056b3; 
+  text-decoration: underline; 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
 }
