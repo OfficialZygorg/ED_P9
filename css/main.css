@@ -1,5 +1,2 @@
 @import url("navbar.css");
-*{
-    background-color: black;
-    color: white;
-}
+@import url("grid.css");
