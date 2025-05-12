@@ -1,0 +1,172 @@
+#products{
+
+  div{
+      display: grid;
+      gap: 5px;
+      background-color: #1c1d1f;
+      padding: 5px;
+      text-align: start;
+      color: #ffffff;
+    img{
+    
+      box-shadow: 1px 1px 15px rgba(246, 238, 238, 0.5);
+      box-shadow: 1px 1px 15px rgba(246, 238, 238, 0.5);
+      transition: transform 0.3s ease;
+      width: 300px;
+      height: 410px;
+      border-radius: 10px
+    }
+    img:hover{
+      transform: scale(1.1);
+    }
+  }
+  .cabecera{
+      display: grid;
+    gap: 5px;
+    background-color: #1c1d1f;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+  }
+  #nombre{
+    display: grid;
+    display: grid;
+    text-align: center;
+    font-size:xx-large;
+  }
+
+  .color2:hover{
+  color: yellow;
+  display: grid;
+  transform: scale(1.1); 
+  transition: all 0.3s ease; 
+  }
+
+  .color3:hover{
+    color: rgb(255, 0, 0);
+    display: grid;
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+    }
+
+  .color4:hover{
+      color: rgb(252, 247, 182);
+      display: grid;
+      transform: scale(1.1); 
+      transition: all 0.3s ease; 
+      }
+
+  .color5:hover{
+        color: rgb(255, 219, 142);
+        display: grid;
+        transform: scale(1.1); 
+        transition: all 0.3s ease; 
+        }
+
+    .color6:hover{
+          color: yellow;
+          display: grid;
+          transform: scale(1.1); 
+          transition: all 0.3s ease; 
+      }
+
+  .nombre:hover {
+    display: grid;
+    display: grid;
+    color: #ff7433; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+  }
+    
+
+
+  #imagen{
+    place-items: center;
+
+  }
+
+  .imagen-precio {
+    display: flex;
+    gap: 200px;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; 
+    
+  }
+
+  #precio {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #c9ebff;
+    background-color: #1c1d1f;
+    padding: 10px 20px;
+    display: inline-block;  /* Se ajusta al contenido */
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgba(201, 250, 247, 0.3);
+    width: auto;
+    max-width: unset;
+  }
+
+  .stock {
+    background-color: #28a745;      
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;            
+    font-weight: bold;
+    font-size: 1em;
+    width: fit-content;
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px rgba(108, 245, 90, 0.3);
+  }
+
+  .sinstock {
+    background-color: #ff4646;      
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;            
+    font-weight: bold;
+    font-size: 1em;
+    width: fit-content;
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px rgba(252, 180, 180, 0.3);
+  }
+
+  .mediostock {
+    background-color: #ffb546;      
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;            
+    font-weight: bold;
+    font-size: 1em;
+    width: fit-content;
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px rgba(245, 230, 90, 0.3);
+  }
+
+
+  h1:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
+  }
+
+  .producto {
+
+    padding: 20px;
+    margin: 30px auto; 
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    max-width: 900px;
+  }
+
+
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; 
+
+}
